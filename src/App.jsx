@@ -1,9 +1,11 @@
 import React from "react";
 import style from "./App.module.scss";
 import ButtonSection from "./components/ButtonSection/ButtonSection";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
+    <HashRouter>
     <div className={style.wrapperDocument}>
       <div className={style.wrapper}>
         <nav className={style.navbar}>
@@ -22,6 +24,7 @@ function App() {
       </div>
       <ButtonSection />
     </div>
+    </HashRouter>
   );
 }
 
