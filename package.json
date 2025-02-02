@@ -1,5 +1,6 @@
 {
-  "name": "pizza",
+  "name": "polish",
+  "homepage": "https://zmejchik.github.io/ZPolskimA2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
