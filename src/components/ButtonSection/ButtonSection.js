@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./ButtonSection.module.scss";
 
 const tracks = [
-  { title: "Track a 1.1", src: "/assets/audio/a1.1.mp3" },
+  { title: "Track a 1.1", src: "./assets/audio/a1.1.mp3" },
   { title: "Track a 1.2", src: "/assets/audio/a1.2.mp3" },
   { title: "Track a 1.3", src: "/assets/audio/a1.3.mp3" },
   { title: "Track a 1.4", src: "/assets/audio/a1.4.mp3" },
